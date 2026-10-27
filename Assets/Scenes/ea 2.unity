@@ -2343,8 +2343,8 @@ MonoBehaviour:
   m_LightType: 4
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
-  m_Color: {r: 0.6226415, g: 0.42799133, b: 0.2337842, a: 1}
-  m_Intensity: 0.05
+  m_Color: {r: 0.645283, g: 0.30708218, b: 0.25202557, a: 1}
+  m_Intensity: 0.2
   m_LightVolumeIntensity: 1
   m_LightVolumeEnabled: 0
   m_ApplyToSortingLayers: 00000000
@@ -2520,7 +2520,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 591, y: 576}
+  m_AnchoredPosition: {x: 483, y: 621}
   m_SizeDelta: {x: 1770.54, y: 191.47}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &721975183
@@ -2543,7 +2543,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Find det rigtige vindue for at slippe ud!
+  m_text: "Det er snat ved at v\xE6re morgen!\nFind det rigtige vindue for at slippe
+    ud!"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -6986,15 +6987,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 277446666738012638, guid: b7fc763dfbe673e448d9c3456ecb5e5d, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 544.55975
+      value: 613.54175
       objectReference: {fileID: 0}
     - target: {fileID: 277446666738012638, guid: b7fc763dfbe673e448d9c3456ecb5e5d, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -98.3042
+      value: -80.95079
       objectReference: {fileID: 0}
     - target: {fileID: 1895005187064634332, guid: b7fc763dfbe673e448d9c3456ecb5e5d, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2307380357113105107, guid: b7fc763dfbe673e448d9c3456ecb5e5d, type: 3}
       propertyPath: m_AnchorMax.y
@@ -7014,11 +7015,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2307380357113105107, guid: b7fc763dfbe673e448d9c3456ecb5e5d, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 104.55975
+      value: 173.54175
       objectReference: {fileID: 0}
     - target: {fileID: 2307380357113105107, guid: b7fc763dfbe673e448d9c3456ecb5e5d, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -98.3042
+      value: -80.95079
       objectReference: {fileID: 0}
     - target: {fileID: 2356501737913566890, guid: b7fc763dfbe673e448d9c3456ecb5e5d, type: 3}
       propertyPath: m_AnchorMax.y
@@ -7038,11 +7039,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2356501737913566890, guid: b7fc763dfbe673e448d9c3456ecb5e5d, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 324.55975
+      value: 393.54175
       objectReference: {fileID: 0}
     - target: {fileID: 2356501737913566890, guid: b7fc763dfbe673e448d9c3456ecb5e5d, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -98.3042
+      value: -80.95079
       objectReference: {fileID: 0}
     - target: {fileID: 2630296474143199063, guid: b7fc763dfbe673e448d9c3456ecb5e5d, type: 3}
       propertyPath: m_AnchorMax.y
@@ -7172,6 +7173,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7515549023342830600, guid: b7fc763dfbe673e448d9c3456ecb5e5d, type: 3}
+      propertyPath: m_text
+      value: You won the game!
+      objectReference: {fileID: 0}
     - target: {fileID: 7951883688466501526, guid: b7fc763dfbe673e448d9c3456ecb5e5d, type: 3}
       propertyPath: m_Name
       value: GameUI
@@ -7202,7 +7207,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9122207304890609091, guid: b7fc763dfbe673e448d9c3456ecb5e5d, type: 3}
       propertyPath: m_text
-      value: Continue
+      value: Try again
+      objectReference: {fileID: 0}
+    - target: {fileID: 9122207304890609091, guid: b7fc763dfbe673e448d9c3456ecb5e5d, type: 3}
+      propertyPath: m_fontSize
+      value: 72
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
