@@ -12,11 +12,14 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu.unity
     guid: 8ee9fbfe38a0db649bd6be5ec8f5e3ed
   - enabled: 1
-    path: Assets/Scenes/Ea.unity
-    guid: 3184ebc29a86b6c4c83a3ec8d8a432a3
+    path: Assets/Scenes/Meinert.unity
+    guid: e8e843e7f8e43024ca3832427584c251
   - enabled: 1
     path: Assets/Scenes/Tibeau.unity
     guid: 398abbb72f4c71747bf4c5969036e6ed
+  - enabled: 1
+    path: Assets/Scenes/Ea.unity
+    guid: 3184ebc29a86b6c4c83a3ec8d8a432a3
   - enabled: 1
     path: Assets/Scenes/Jonathan.unity
     guid: 7dcef3866e5f636439ce581a10c12b7a
