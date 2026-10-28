@@ -1904,8 +1904,8 @@ MonoBehaviour:
   m_LightType: 4
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
-  m_Color: {r: 0.77647066, g: 0.5882353, b: 0.5803922, a: 1}
-  m_Intensity: 0
+  m_Color: {r: 0.6377357, g: 0.31082997, b: 0.29720888, a: 1}
+  m_Intensity: 0.05
   m_LightVolumeIntensity: 1
   m_LightVolumeEnabled: 0
   m_ApplyToSortingLayers: 00000000
@@ -6603,7 +6603,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1895005187064634332, guid: b7fc763dfbe673e448d9c3456ecb5e5d, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
-      value: 1
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 2307380357113105107, guid: b7fc763dfbe673e448d9c3456ecb5e5d, type: 3}
       propertyPath: m_AnchorMax.y
